@@ -1,0 +1,7 @@
+requests>=2.31.0
+selenium>=4.11.2
+beautifulsoup4>=4.12.2
+pandas>=2.1.1
+python-dotenv>=1.0.0
+lxml>=4.9.3
+openpyxl>=3.1.2
