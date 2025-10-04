@@ -2,6 +2,10 @@
   <img src="banner.png" alt="Insecurity Multi Tool Banner" width="100%">
 </p>
 
+<p align="center">
+  <em>A Python developer passionate about security and automation</em>
+</p>
+
 <div align="center">
 
 # 🛡️ Insecurity Multi Tool  
@@ -19,7 +23,7 @@
 
 ## 🧠 Overview
 
-**Insecurity Multi Tool** is a modular Python-based toolkit aggregating utilities for cybersecurity, account management, and automation workflows. Emphasizes usability, extensibility, and streamlined operations.
+**Insecurity Multi Tool** is a modular Python-based toolkit aggregating utilities for cybersecurity, account management, and automation workflows. It emphasizes usability, extensibility, and streamlined operations.
 
 > **Important:** Authorized use only. Misuse of features for fraud or unauthorized access is illegal.
 
@@ -28,21 +32,25 @@
 ## 🌟 Features
 
 - **Parcel Tracker** — Track parcel and shipment statuses from multiple carriers.
-
 - **Revolut Business — Card Export** — Export all cards on your Revolut Business account to an easy-to-read CSV.
-
 - **Revolut Business — Virtual Card Generator** — Automatically generate virtual cards for Business accounts and save to CSV.
-
 - **iCloud Account Provisioning** — Automate creation of iCloud accounts for testing or authorized provisioning.
-
 - **3DS Approval Helper (Personal Accounts)** — Automate handling of 3DS approval prompts for personal accounts you control.
 
   ![Revolut Personal 3DS Solver](revolut_personal_solver.png)
   *Screenshot: Revolut Personal 3DS Solver interface*
 
 - **3DS Approval Helper (Business Accounts)** — Similar functionality for Revolut Business accounts.
-
 - **eBay View Sender** — Increase view counts on your own eBay listings for analytics or promotion.
+
+---
+
+## 📊 Dashboard
+
+Visual overview of the **Insecurity Multi Tool** interface and workflow:
+
+![Insecurity Multi Tool Dashboard](dashboard.png)
+*Screenshot: Dashboard interface of Insecurity Multi Tool*
 
 ---
 
@@ -72,7 +80,8 @@ Follow the interactive menu to select features and provide any required credenti
 Insecurity-multi-tool/
 ├── InsecurityV1.0.5.py
 ├── setup.txt
-├── revolut_personal_solver.png  # Screenshot placeholder
+├── revolut_personal_solver.png
+├── dashboard.png
 └── README.md
 ```
 
