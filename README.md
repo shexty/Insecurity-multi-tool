@@ -9,7 +9,7 @@
 <div align="center">
 
 # 🛡️ Insecurity Multi Tool  
-**A Comprehensive Multi-Tool for Cybersecurity & Account Management Tasks**
+**A Comprehensive Multi-Tool for Automation & Account Management Tasks**
 
 ![Stars](https://img.shields.io/github/stars/shexty/Insecurity-multi-tool-?style=flat&color=yellow)
 ![Forks](https://img.shields.io/github/forks/shexty/Insecurity-multi-tool-?style=flat&color=blue)
@@ -23,7 +23,7 @@
 
 ## 🧠 Overview
 
-**Insecurity Multi Tool** is a modular Python-based toolkit aggregating utilities for cybersecurity, account management, and automation workflows. It emphasizes usability, extensibility, and streamlined operations.
+**Insecurity Multi Tool** is a modular Python-based toolkit aggregating utilities for the reeselling community, account management, and automation workflows. It emphasizes usability, extensibility, and streamlined operations.
 
 > **Important:** Authorized use only. Misuse of features for fraud or unauthorized access is illegal.
 
@@ -62,7 +62,7 @@ cd Insecurity-multi-tool-
 python InsecurityV1.0.5.py
 ```
 
-Follow the interactive menu to select features and provide any required credentials or configuration.
+This Software uses the WHOP OAUTH system to detect if a user has access to this software so please create your own WHOP account and link to this.
 
 ---
 
