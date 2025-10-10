@@ -127,7 +127,7 @@ def main_menu():
             start = time.time()
         )
     if not rpc:
-        client_id = "1085298806880485456" #your application's client id
+        client_id = "INSERT ID" #your application's client id
         try:
             RPC = Presence(client_id)
             RPC.connect()
@@ -231,7 +231,7 @@ try:
     green = f'{Fore.GREEN}{Style.BRIGHT}'
     exe_dir = os.path.dirname(os.path.abspath(__file__))
     # Check for updates
-    iframe_url = "https://insecuritytools.com/version.txt"
+    iframe_url = "https://insecuritytools.com/version.txt" #insert here your url where you will store your version number to allow the auto dector to work
     headers = {
     'authority': 'www.insecuritytools.com',
     'method': 'GET',
@@ -264,7 +264,7 @@ try:
             
             print(f"\033[38;5;94m[{timestamp}]{RESET}downloading newest version please wait")
             # Download the latest version of the bot
-            download_url = 'https://www.insecuritytools.com'#/download/Insecuirty[V1.0.5].exe'
+            download_url = 'https://www.insecuritytools.com' #/download/Insecuirty[V1.0.5].exe'
             # Define the filename for the downloaded file
             filename = 'Insecurity[V1.0.6].exe'
             # Download the latest version of the program
@@ -3016,4 +3016,5 @@ try:
 except Exception as e:
     print(f"{Fore.RED}[x] An error occured: {e}{Fore.RESET}\n{Fore.CYAN}Redirecting to Main Menu in 5 seconds...")
     time.sleep(5)
+
     main_menu()
